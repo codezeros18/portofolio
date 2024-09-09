@@ -26,7 +26,7 @@ const ForFooter = () => {
     ]
   return (
     <div className='bg-blackshit2'>
-        <div className="relative isolate min-h-[100vh] md:min-h-[100vh] pt-20 pb-10">
+        <div className="relative isolate min-h-screen pt-20 pb-8">
             <div className='flex items-center justify-center'>
                 <div className="min-w-[20rem] md:min-w-[24rem] md:w-[1000px]">
                     <div className='max-w-80 md:max-w-3xl pt-10'>

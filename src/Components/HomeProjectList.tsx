@@ -42,7 +42,7 @@ const HomeProjectList: React.FC = () => {
             <div className='text-center my-14 md:my-0'>
                 <Link to={'/project'}>
 
-                    <button className='relative border-2 border-gray-600 rounded-full my-10 px-4 md:px-10 py-2 md:py-6 text-black hover:text-white text-[16px] md:text-[19px] w-full md:w-auto overflow-hidden bg-transparent transition-colors duration-500 ease-in-out hover:bg-gray-600'>
+                    <button className='relative border-2 border-gray-600 rounded-full my-4 px-4 md:px-10 py-2 md:py-6 text-black hover:text-white text-[16px] md:text-[19px] w-full md:w-auto overflow-hidden bg-transparent transition-colors duration-500 ease-in-out hover:bg-gray-600'>
                         <span className='absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100'></span>
                         More Project"
                         </button>

@@ -42,7 +42,7 @@ const ContactList: React.FC = () => {
   
 
   return (
-    <div className="relative isolate min-h-screen md:min-h-[90vh] flex items-center justify-center mt-20 mb-20">
+    <div className="relative isolate min-h-screen flex items-center justify-center mt-20">
       <div className="w-full mx-8 md:mx-64 mb-20">
         <div className='grid grid-cols-1 md:grid-cols-6 md:gap-y-32 md:gap-x-28'>
             <div className='col-span-4 order-2 md:order-1'> 
@@ -88,7 +88,7 @@ const ContactList: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='relative flex items-center justify-center'>
+                    <div className='relative flex items-center justify-center mt-10'>
                         <div className='absolute inset-0 flex items-center justify-center'>
                             <hr className='w-full border-gray-300' />
                         </div>
