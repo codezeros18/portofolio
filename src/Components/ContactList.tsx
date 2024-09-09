@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef, useState } from 'react';
+import React, { FormEvent, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import profile from '../Assets/profile.jpg';
 // import { Link } from 'react-router-dom';

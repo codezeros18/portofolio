@@ -2,13 +2,13 @@ import React from 'react';
 import Marquee from "react-fast-marquee";
 
 const HomeLanding: React.FC = () => {
-  interface Text {
-    title: string;
-  }
+  // interface Text {
+  //   title: string;
+  // }
 
-  const textData: Text[] = [
-    { title: "Lintang Balakosa Ardhana -" },
-  ];
+  // // const textData: Text[] = [
+  // //   { title: "Lintang Balakosa Ardhana -" },
+  // // ];
 
   return (
     <div className='relative isolate min-h-[110vh] md:min-h-[110vh] flex items-center justify-center bg-cover bg-center'>

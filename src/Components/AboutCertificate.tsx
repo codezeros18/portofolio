@@ -1,7 +1,7 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer';
 import 'tailwindcss/tailwind.css';
-import image from '../assets/profile.jpg';
+// import image from '../assets/profile.jpg';
 import image1 from '../assets/cert.jpg';
 import profile from '../Assets/profile.jpg';
 

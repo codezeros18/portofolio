@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Navbar from '../Layout/Navbar';
 import ContactHeader from '../Components/ContactHeader';
 import ContactList from '../Components/ContactList';
-import ForFooter from '../Components/ForFooter';
+// import ForFooter from '../Components/ForFooter';
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 
