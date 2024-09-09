@@ -122,7 +122,9 @@ const Navbar: React.FC = () => {
           <div className='grid grid-cols-4 gap-4'>
             {linked.map((item) => (     
               <div className='my-6' key={item.name}>
-                <p className='text-white font-[500]'>{item.name}</p>
+                <Link to={item.link}>
+                  <p className='text-white font-[500]'>{item.name}</p>
+                </Link>
               </div>
             ))}
           </div>

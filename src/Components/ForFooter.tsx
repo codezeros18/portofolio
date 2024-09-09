@@ -25,8 +25,8 @@ const ForFooter = () => {
         {name: 'Github', link: 'https://github.com/codezeros18'},
     ]
   return (
-    <div className='bg-blackshit2'>
-        <div className="relative isolate min-h-[100vh] md:min-h-[100vh] pt-20">
+    <div className='bg-blackshit2 w-full h-full'>
+        <div className="relative isolate min-h-[150vh] md:min-h-[100vh] pt-20">
             <div className='flex items-center justify-center'>
                 <div className="min-w-[20rem] md:min-w-[24rem] md:w-[1000px]">
                     <div className='max-w-80 md:max-w-3xl pt-10'>
@@ -60,7 +60,7 @@ const ForFooter = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row md:items-end justify-between mx-8 md:mx-12 mt-6 md:mt-24'>
+            <div className='flex flex-col md:flex-row md:items-end justify-between mx-8 md:mx-12 mt-6 md:mt-24 pb-10'>
                     <div className='flex flex-row order-3 md:order-1'>
                         <div>
                             <p className='text-white text-[11px] leading-3 text-opacity-40 font-[500] py-4'>LOCAL TIME</p>
