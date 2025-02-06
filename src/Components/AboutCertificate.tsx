@@ -4,6 +4,10 @@ import 'tailwindcss/tailwind.css';
 // import image from '../assets/profile.jpg';
 import image1 from '../assets/cert.jpg';
 import profile from '../Assets/profile.jpg';
+import image0 from '../assets/cert1.png';
+import image2 from '../assets/cert2.png';
+import image3 from '../assets/cert3.png';
+import image4 from '../assets/cert4.png';
 
 const AboutCertificate: React.FC = () => {
     const { ref, inView } = useInView({
@@ -34,6 +38,12 @@ const AboutCertificate: React.FC = () => {
                                 }`}
                                 >With a background in Rekayasa Perangkat Lunak, I focus on building reliable applications and libraries. I enjoy creating solutions that are efficient and scalable, always aiming to meet industry standards.</h4>
                     </div>
+                </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 my-8'>
+                    <img src={image0} alt="" />
+                    <img src={image2} alt="" />
+                    <img src={image3} alt="" />
+                    <img src={image4} alt="" />
                 </div>
             </div>
         </div>
